@@ -6,6 +6,8 @@
   position: fixed;
   top: 0;
   width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
 }
 
 .nav li {
@@ -19,13 +21,33 @@
 .nav li a {
   display: block;
   padding: 8px;
-  background-color: #60809f;
+  background-color: #f2f2f2;
   text-align: center;
   color: #000000;
   text-decoration: none;
 }
 
 .nav li a:hover {
-  background-color: #e6f2ff;
-  color: #60909f;
+  background-color: #737373;
+  color: #f2f2f2;
+  border-style: solid;
+  padding: 5px;
+}
+
+.nav li.dropdown {
+  display:inline-block;
+}
+
+.nav .dropdown-content {
+  display: none;
+}
+
+.nav .dropdown-content a{
+  display: block;
+  text-align: left;
+  text-decoration: none;
+}
+
+.nav .dropdown:hover .dropdown-content {
+  display: block;
 }
