@@ -1,24 +1,26 @@
 .nav ul {
   text-align: center;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  top: 0;
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  sizing: border-box;
+  overflow: hidden;
   width: 100%;
-  box-sizing: border-box;
+  background-color: #f2f2f2;
 }
 
 .nav li {
-  float: left;
-  margin: 0;
-  padding: 0;
-  font-family: 'Mako', Helvetica;
+  float: right;
+  font-family: "Pavanam", Helvetica;
   font-size: 20px;
 }
 
 .nav li a {
   display: block;
-  padding: 8px;
+  padding: 15px;
   background-color: #f2f2f2;
   text-align: center;
   color: #000000;
@@ -29,23 +31,17 @@
   background-color: #737373;
   color: #f2f2f2;
   border-style: solid;
-  padding: 5px;
+  padding: 10px;
 }
 
-.nav li.dropdown {
-  display:inline-block;
+p, h1 {
+  width: 100%;
 }
 
-.nav .dropdown-content {
-  display: none;
+#coursework {
+  list-style-type: disc;
 }
 
-.nav .dropdown-content a{
-  display: block;
-  text-align: left;
-  text-decoration: none;
-}
-
-.nav .dropdown:hover .dropdown-content {
-  display: block;
+#profiles {
+  padding: 20px;
 }

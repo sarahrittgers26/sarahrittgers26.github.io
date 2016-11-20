@@ -5,7 +5,7 @@
     <link href="style.css" type="text/css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Pavanam" rel="stylesheet">
     <meta name="Sarah Rittgers">
-    <title>Home</title>
+    <title>Contact</title>
   </head>
 
   <body>
@@ -20,8 +20,19 @@
       </div>
     </nav>
 
-    <h1>Welcome!</h1>
-    <p>Please excuse the appearance, this website is a work in progress.</p>
+    <h1>Contact</h1>
+    
+    <p>Want to get in contact? Please fill out the form below!</p>
+
+    <form name="contact" method="post" action="contact.php" autocomplete="on">
+      Name:<br>
+      <input type="text" name="name"><br>
+      Email:<br>
+      <input type="email" name="email"><br>
+      Comment:<br>
+      <textarea name="comment" rows="10" cols="50"></textarea><br>
+      <input type="submit" value="Send">
+    </form>
 
   </body>
 
