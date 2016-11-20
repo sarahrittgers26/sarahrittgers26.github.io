@@ -34,8 +34,29 @@
   padding: 10px;
 }
 
-p, h1 {
+p, h1, h2, h3, .calc, .contact-form, #coursework {
   width: 100%;
+  font-family: "Pavanam", Helvetica;
+}
+
+.projects  {
+    list-style-type: none;
+    background-color: #f2f2f2;
+    max-width: 150px;
+    margin-left: 10px;
+
+}
+
+.projects li, .applets li {
+  font-family: "Pavanam", Helvetica;
+}
+
+.projects li a {
+  text-decoration: none;
+}
+
+.applets {
+  list-style-type: disk;
 }
 
 #coursework {
