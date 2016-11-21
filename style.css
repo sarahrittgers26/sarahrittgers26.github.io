@@ -34,7 +34,7 @@
   padding: 10px;
 }
 
-p, h1, h2, h3, .calc, .contact-form, #coursework {
+p, h1, h2, h3, .calc, .contact-form, #coursework, #address {
   width: 100%;
   font-family: "Pavanam", Helvetica;
 }
