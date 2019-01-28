@@ -3,6 +3,7 @@
 
   <head>
     <link href="style.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Pavanam" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico" type="image/ico"/>
     <meta name="author" content="Sarah Rittgers">
@@ -10,13 +11,20 @@
   </head>
 
   <body background="cs.jpg" id="home">
-    <nav>
-      <div class="nav">
-        <ul>
-          <li style="float:left"><a href="index.html">Sarah Rittgers</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="projects.html">Projects</a></li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Home</a>
+
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="about.html">About Me</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
         </ul>
       </div>
     </nav>
