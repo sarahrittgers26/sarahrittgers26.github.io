@@ -1,0 +1,50 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.background-img {
+  background-image: url("../img/background.png");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.index-container {
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /*width: auto;*/
+}
+
+p, h1, h2, h3, .contact-form, #coursework, #address {
+  width: 100%;
+  font-family: "Pavanam", Helvetica;
+}
+
+.projects  {
+    list-style-type: none;
+    background-color: #f2f2f2;
+    max-width: 150px;
+    margin-left: 10px;
+
+}
+
+.projects li, .applets li {
+  font-family: "Pavanam", Helvetica;
+}
+
+.projects li a {
+  text-decoration: none;
+}
+
+#coursework {
+  list-style-type: disc;
+}
+
+#profiles {
+  padding: 20px;
+}
