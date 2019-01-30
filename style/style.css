@@ -32,12 +32,9 @@ p, h1, h2, h3, .contact-form, #coursework, #address {
 
 }
 
-.projects li, .applets li {
-  font-family: "Pavanam", Helvetica;
-}
 
-.projects li a {
-  text-decoration: none;
+.project-section {
+  margin: 30px;
 }
 
 #coursework {
