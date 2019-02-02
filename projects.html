@@ -62,16 +62,25 @@
 
       <h1 class="font-weight-bold text-center">Projects</h1>
 
+      <ul class="list-inline text-center">
+        <li class="list-inline-item"><a href="#pennBook">PennBook</a></li>
+        <li class="list-inline-item"><a href="#sawl">SAWL</a></li>
+        <li class="list-inline-item"><a href="#studyConnect">StudyConnect</a></li>
+        <li class="list-inline-item"><a href="#flood">Flood It</a></li>
+        <li class="list-inline-item"><a href="#lostAndFound">Penn Lost and Found</a></li>
+      </ul>
+
       <div class="my-projects">
 
-        <div class="project-section to-reveal">
-          <div class="card">
-            <img class="card-img-top project-card cursor-pointer" id="pennbookImg" src="./img/pennbook_login.png" alt="Pennbook login">
+        <div id="pennBook" class="project-section to-reveal">
+          <div class="card border-secondary">
+            
             <div class="card-body">
               <h3 class="card-title">PennBook</h3>
               <h5 class="card-title">Node.js, Express, React, DynamoDB, MapReduce</h5>
               Replication of Facebook with functionalities including: viewing the newsfeed, user profiles, wall posts, 2-way and group chats, and viewing online friends.
             </div>
+            <img class="card-img-bottom project-card cursor-pointer" id="pennbookImg" src="./img/pennbook_login.png" alt="Pennbook login">
           </div>
 
           <div class="modal" id="pennBookModal" tabindex="-1" role="dialog">
@@ -119,8 +128,8 @@
           </div>
         </div>
 
-        <div class="project-section to-reveal">
-          <div class="card">
+        <div id="sawl" class="project-section to-reveal">
+          <div class="card border-secondary">
             <div class="card-body">
               <h3 class="card-title">SAWL (Suspicious Actors Watch List)</h3>
               <h5 class="card-title">Ruby on Rails, React, Redux, Sagas, Python, AWS Lambda, Flask, Zappa</h5>
@@ -129,14 +138,14 @@
           </div>
         </div>
 
-        <div class="project-section to-reveal">
-          <div class="card">
-            <img class="card-img-top project-card cursor-pointer" id="studyConnectImg" src="./img/sc_login.png" alt="Pennbook login">
+        <div id="studyConnect" class="project-section to-reveal">
+          <div class="card border-secondary">
             <div class="card-body">
               <h3 class="card-title">Study Connect</h3>
               <h5 class="card-title">Swift, Firebase</h5>
               Mobile app designed to foster collaboration and discussion within educational communities. Create study groups (with associated study events) and post questions on the forum.
             </div>
+            <img class="card-img-bottom project-card cursor-pointer" id="studyConnectImg" src="./img/sc_login.png" alt="Pennbook login">
           </div>
 
           <div class="modal" id="studyConnectModal" tabindex="-1" role="dialog">
@@ -184,14 +193,14 @@
           </div>
         </div>
 
-        <div class="project-section to-reveal">
-          <div class="card">
-            <img class="card-img-top project-card cursor-pointer" id="floodImg" src="./img/flood_main.png" alt="Pennbook login">
+        <div id="flood" class="project-section to-reveal">
+          <div class="card border-secondary">
             <div class="card-body">
               <h3 class="card-title">Flood It</h3>
               <h5 class="card-title">Ruby on Rails</h5>
               Web app mimicking the game <a href="https://unixpapa.com/floodit/">Flood-It</a>. Play different levels of difficulty and board sizes in addition to playing against the computer. Log in to save your games. Maintain list of high scores.
             </div>
+            <img class="card-img-bottom project-card cursor-pointer" id="floodImg" src="./img/flood_main.png" alt="Pennbook login">
 
             <div class="modal" id="floodModal" tabindex="-1" role="dialog">
               <div class="modal-dialog" role="document">
@@ -243,14 +252,14 @@
           </div>
         </div>
 
-        <div class="project-section to-reveal">
-          <div class="card">
-            <img class="card-img-top project-card cursor-pointer" id="lostAndFoundImg" src="./img/plaf_home.png" alt="Pennbook login">
+        <div id="lostAndFound" class="project-section to-reveal">
+          <div class="card border-secondary">
             <div class="card-body">
               <h3 class="card-title">Penn Lost and Found</h3>
               <h5 class="card-title">Android, Firebase</h5>
               Mobile app giving users capabilities to post about lost or found items and claim items that were lost.
             </div>
+            <img class="card-img-bottom project-card cursor-pointer" id="lostAndFoundImg" src="./img/plaf_home.png" alt="Pennbook login">
           </div>
 
           <div class="modal" id="lostAndFoundModal" tabindex="-1" role="dialog">
