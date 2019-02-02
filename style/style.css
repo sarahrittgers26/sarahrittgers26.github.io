@@ -62,3 +62,7 @@ p, h1, h2, h3, .contact-form {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.cursor-pointer {
+  cursor: pointer;
+}
