@@ -44,10 +44,6 @@ p, h1, h2, h3, .contact-form, #coursework, #address {
   margin-bottom: 50px;
 }
 
-#coursework {
+.unordered-list {
   list-style-type: disc;
-}
-
-#profiles {
-  padding: 20px;
 }
