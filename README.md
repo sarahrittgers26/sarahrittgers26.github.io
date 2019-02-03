@@ -1,2 +1,4 @@
 # sarahrittgers26.github.io
-This repository includes all of the files found on my website, sarahrittgers.com
+Repository for my website: http://www.sarahrittgers.com
+
+Note: GitHub web hosting only allows static content, meaning PHP forms cannot be used. Currently, I am using Formspree (http://formspree.io) to forward emails from my form.
