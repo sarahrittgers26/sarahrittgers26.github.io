@@ -133,14 +133,3 @@ img {
   color: #c1c1c1;
   padding-right: 10px;
 }
-
-.my-links {
-  position: fixed;
-  bottom: 0px;
-  left: 5px;
-}
-
-.my-links img {
-  height: 100%;
-  width: auto;
-}
