@@ -37,7 +37,6 @@ p, h1, h2, h3, .contact-form {
   margin-left: 10px;
 }
 
-
 .project-section {
   margin: 30px;
 }
@@ -79,6 +78,20 @@ img {
   width: 100%;
   height: 50vw;
   object-fit: contain;
+}
+
+.interests-row {
+  padding-left: 40px;
+}
+
+.interests-list {
+  list-style-type: none;
+  list-style-position: outside;
+  padding-left: 5px;
+}
+
+.interests-list li {
+  font-weight: normal;
 }
 
 /* Scrolling */
@@ -132,4 +145,10 @@ img {
 .fa-linkedin-in, .fa-github, .fa-file {
   color: #c1c1c1;
   padding-right: 10px;
+}
+
+.project-image {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
 }
