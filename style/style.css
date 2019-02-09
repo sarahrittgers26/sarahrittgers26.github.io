@@ -7,25 +7,28 @@ body, html {
 .container {
   margin-top: 20px;
   padding-bottom: 30px;
+  height: 100%;
 }
 
 .background-img {
-  background-image: url("../img/background.png");
-  height: 100%;
-  width: 100%;
-  background-position: left;
+  background-image: url("../img/background.jpg");
+  background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
+  height: 100%;
 }
 
-.index-container {
-  position: absolute;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+.home-content {
+  text-align: center;
 }
 
-p, h1, h2, h3, .contact-form {
+.home-content h1 {
+  font-size: 120px;
+  color: #f2f2f2;
+}
+
+p, h1, h2, h3 {
   width: 100%;
   font-family: "Pavanam", Helvetica;
 }

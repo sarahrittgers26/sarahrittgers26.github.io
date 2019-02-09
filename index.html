@@ -12,13 +12,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <meta name="author" content="Sarah Rittgers">
-    <title>Home</title>
+    <title>sarahrittgers.com</title>
   </head>
 
-  <body>
+  <body style="padding-top:0px">
 
     <div class="background-img">
-      <div class="index-container">
+      <div class="container">
 
         <nav class="navbar navbar-inverse fixed-top navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
@@ -27,8 +27,8 @@
               <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse">
-              <ul class="navbar-nav">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
                   <a class="nav-link" href="projects.html">Projects</a>
                 </li>
@@ -39,25 +39,34 @@
                   <a class="nav-link" href="contact.html">Contact</a>
                 </li>
               </ul>
+              <ul class="navbar-nav ml-auto">
+                <li>
+                  <a href="https://www.linkedin.com/in/sarah-rittgers-62203a81" id="linkedIn">
+                    <i class="fab fa-linkedin-in fa-lg"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/sarahrittgers26">
+                    <i class="fab fa-github fa-lg"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="Resume.pdf" target="_blank">
+                    <i class="far fa-file fa-lg"></i>
+                  </a>
+                </li>
+              </ul>
             </div>
-            <ul class="navbar-nav navbar-right">
-              <li>
-                <a href="https://www.linkedin.com/in/sarah-rittgers-62203a81" id="linkedIn">
-                  <i class="fab fa-linkedin-in fa-lg"></i>
-                </a>
-              <li>
-                <a href="https://github.com/sarahrittgers26">
-                  <i class="fab fa-github fa-lg"></i>
-                </a>
-              </li>
-              <li>
-                <a href="Resume.pdf" target="_blank">
-                  <i class="far fa-file fa-lg"></i>
-                </a>
-              </li>
-            </ul>
           </div>
         </nav>
+
+        <div class="container h-100">
+          <div class="row h-100 justify-content-center align-items-center home-content">
+            <div class="col-12">
+              <h1>Hi, I'm Sarah</h1>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
