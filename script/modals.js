@@ -4,6 +4,11 @@ $(document).ready(function () {
   });
 });
 $(document).ready(function () {
+  $("#ahaImg").on('click',function () {
+    $('#ahaModal').modal('show'); 
+  });
+});
+$(document).ready(function () {
   $("#studyConnectImg").on('click',function () {
     $('#studyConnectModal').modal('show'); 
   });
