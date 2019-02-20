@@ -15,6 +15,10 @@ body, html {
   height: 100%;
 }
 
+.container .h-100 {
+  margin-top: 0px;
+}
+
 .background-img {
   background-image: url("../img/background.jpg");
   background-position: center center;
