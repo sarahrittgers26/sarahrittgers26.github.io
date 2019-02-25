@@ -106,6 +106,19 @@ img {
   font-weight: normal;
 }
 
+.reading-list {
+  list-style-position: outside;
+  padding-left: 5px;
+}
+
+.reading-list li {
+  font-weight: normal;
+}
+
+.reading-list a {
+  color: #000000;
+}
+
 /* Scrolling */
 
 #back-to-top {
