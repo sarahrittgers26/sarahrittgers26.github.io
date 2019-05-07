@@ -1,4 +1,9 @@
 $(document).ready(function () {
+  $("#myTravelsImg").on('click',function () {
+    $('#myTravelsModal').modal('show'); 
+  });
+});
+$(document).ready(function () {
   $("#pennbookImg").on('click',function () {
     $('#pennBookModal').modal('show'); 
   });
